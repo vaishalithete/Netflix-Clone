@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Poppins',sans-serif; */
+}
+
+body{
+    background-color: black;
+}
+
+
+.main{
+    background-image: url("assests/images/bg.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: 100vw; */
+    background-size: (1200px, 100vw);
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    /* font-family: sans-serif; */
+    /* font-family: "Martel Sans", sans-serif; */
+    /* font-family: 'Poppins',sans-serif; */
+
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :first-child{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+
+    /* Vishu */
+    font-size: 56px;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    
+    /* Vishu */
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+    /* Vishu */
+    font-size: 17px; 
+    font-family: sans-serif;
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn{
+    /* padding: 3px 8px; */
+    font-weight: 500;
+    color: white;
+    
+    /* Vishu */
+    font-family: sans-serif;
+    /* padding: 8px 16px; */
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-red-get{
+    background-color: red;
+    color: white;
+    padding: 9px 27px;
+    font-size: 22px;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.main input{
+    padding: 14px 200px 14px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.5px solid rgba(246, 238, 238, 0.5);
+    color: white;
+    
+    /* Vishu */
+    /* border: 0.5px solid gray; */
+    /* width: 300px; */
+    /* background-color: rgba(27, 27, 27, 0.7); */
+}
+
+.top-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn-eng{
+    background-color: rgba(248,243, 243, 0.021);
+    /* border: 1px solid rgba(100, 97, 97, 0.7); */
+    border: 1px solid rgba(116, 116, 116, 0.9);
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.btn-red-sn{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+
+    padding: 8px 16px; 
+    cursor: pointer;
+}
+
+
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    /* Vishu */
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    top: 20px;
+}
+
+.secImg video{
+    position: absolute;
+    top: 20px;
+
+    /* Vishu */
+    left: 48px; 
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Poppins',sans-serif;
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
+section.third > .secImg video{
+    max-width: 30vw;
+    position: absolute;
+    /* top: 20px; */
+
+    /* Vishu */
+    /* left: 48px;  */
+}
+
+
+
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 34px;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* .faqbox i{
+    filter: invert(1);
+} */
+
+.faqbox{
+    display: flex;
+    background-color: rgb(50, 48, 48);
+    padding: 24px;
+    max-width: 60vw;
+    margin: 12px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.faqbox i{
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.faqbox span{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 0;
+}
+
+.faqbox:hover{
+    background-color: rgb(93, 89, 89);;
+}
+
+.faq-bottom div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.faq-bottom .last-line{
+    padding-top: 55px;
+}
+
+.faq-bottom input{
+    padding: 14px 200px 14px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.5px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+
+
+footer{
+    color: rgb(193, 190, 190);
+    max-width: 60vw;
+    margin: auto;
+    font-family: sans-serif;
+
+    padding-top: 14px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 120px;
+}
+
+footer .questions{
+    padding: 30px 0 50px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(193, 190, 190);;
+    padding-bottom: 45px;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer-items a{
+    font-size: 15px;
+    color: rgb(193, 190, 190);;
+}
+
+footer .btn-eng{
+    margin: 30px 0;
+    /* cursor: pointer; */
+}
